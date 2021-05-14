@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Century Gothic;
+    
+}
+
+header{
+    background-image: url("bg.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+ 
+}
+
+.menu{
+    list-style-type: none;
+    float:right;
+    margin-top:40px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration:none;
+    padding:5px 20px;
+    font-weight:bold;
+    color:black;
+    border: 1px;
+}
+
+.menu li a:hover{
+    color:white;
+    background-image: linear-gradient(to right,#30cfd0 0%, #330867 100%);
+    border: 1px;
+    border-radius: 5px;
+
+}
+
+.menu .active{
+    padding: 5px 0;
+    color:white;
+    background-image: linear-gradient(to right,#30cfd0 0%, #330867 100%);
+    border: 1px;
+    border-radius: 5px;
+}
+
+.name h1{
+    color: #000066;
+    float:left;
+    margin-top:25px;
+    margin-left: 10px;
+    font-size:7vh;
+}
+
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.line hr{
+    position:absolute;
+    top:16%;
+}
+
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    width:100%;
+}
+
+.intro h1{
+    font-family: "Sofia";
+    font-family: 5vh;
+    color: #000066;
+    position: absolute;
+    top:30%;
+    left:15%;
+}
+
+.intro div{
+    color: #333333;
+    width: 600px;
+    position: absolute;
+    top:40%;
+    left: 20%;
+    font-size: 20px;
+    font-family:"Farro", sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    text-justify: inter-word;
+}  
+
+.home{
+    color:#333333;
+    position: absolute;
+    top:35%;
+    left:18%;
+}
+
+.home .text-1{
+    font-family: "Sofia";
+    font-size:27px;
+}
+
+.home .text-2{
+    font-family: "Sofia";
+    font-size: 70px;
+    color:#950740;
+}
+
+.home .text-3{
+    font-family: "Sofia";
+    font-size: 40px;
+}
+
+.home .text-3 span{
+    font-family: "Sofia";
+    color:black;
+}
+
+.certs{
+    float:left;
+    list-style-type: none;
+    position: absolute;
+    top: 23%;
+    left: 13%;
+
+}
+
+.certs li{
+    padding-bottom: 30px;
+}
+
+.certs li h3{
+    font-family: "Farro", sans-serif;
+    font-size: 25px;
+    color:rgb(187, 59, 59);
+
+}
+
+.certs li h5{
+    font-family: "Farro", sans-serif;
+    font-size: 15px;
+    margin-left: 40px;
+    color:rgb(9, 1, 82);
+}
+
+.social-media{
+    float:right;
+    list-style-type: none;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+
+}
+
+.social-media li{
+    margin-top: 10px;
+}
+
+.skill{
+    float:left;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+
+}
+
+.skill ul{
+    list-style-type: none;
+}
+
+.skill ul li{
+    font-family: "Sofia", sans-serif;
+    font-size: 25px;
+    margin-top: 70px;
+    color:rgb(9, 1, 82);
+}
+
+.languages-icons{
+    list-style-type: none;
+    position: absolute;
+    top: 23%;
+    left: 33%;
+}
+
+.languages-icons li{
+    display: inline-block;
+    padding-right: 50px ;
+}
+
+.libraries-icons{
+    list-style-type: none;
+    position: absolute;
+    top: 40%;
+    left: 27%;
+}
+
+.libraries-icons li{
+    display: inline-block;
+    padding-right: 20px ;
+}
+
+.tools-icons{
+    list-style-type: none;
+    position: absolute;
+    top: 55%;
+    left: 32%;
+}
+
+.tools-icons li{
+    display: inline-block;
+    padding-right: 70px ;
+}
+
+.databases-icons{
+    list-style-type: none;
+    position: absolute;
+    top: 63%;
+    left: 32%;
+}
+
+.databases-icons li{
+    display: inline-block;
+    padding-right: 50px ;
+}
